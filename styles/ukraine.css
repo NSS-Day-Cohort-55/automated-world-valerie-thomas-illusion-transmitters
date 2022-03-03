@@ -6,8 +6,13 @@ body {
     flex-direction: column;
     max-width:70%;
     align-items: flex-start;
-    border:solid black 5px;
+    /* border:solid black 5px; */
     margin-left:15%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width:100%;
 }
 .logo {
     border: solid #C9D6DF 2px;
@@ -15,19 +20,25 @@ body {
     max-width: 3em;
     margin-bottom:2em;
 }
+.logo p {
+    padding-left: .25em;
+}
 
 nav {
     display:flex;
+    justify-content: space-between;
     margin-bottom: 1em;
     
 
 }
 
 .navButton {
+    flex:1;
+    min-width: 6em;
     border: solid #C9D6DF 2px;
     border-radius:20px;
     max-width: 3em;
-    display:flex;
+    
     
 }
 
@@ -48,24 +59,30 @@ main {
 
 .boxes {
     display: flex;
-    border:solid 3px tan;
-    justify-content: space-around;
-    padding: 2em 2em;
+    justify-content: space-between;
 }
 
 .cityBox {
     border: solid 2px greenyellow;
     padding: 2em;
+    margin:0 1em 0 0em;
+    flex:1;
+    border-radius: 8px;
 
 }
 .landmarkBox {
     border: solid 2px greenyellow;
     padding: 2em;
+    margin:0;
+    flex:1;
+    border-radius: 8px;
 
 }
 .celebrityBox {
-    display:flex;
     border: solid 2px greenyellow;
     padding: 2em;
     max-width: 27vw;
+    margin:0 0 0 1em;
+    flex:1;
+    border-radius: 8px;
 }
