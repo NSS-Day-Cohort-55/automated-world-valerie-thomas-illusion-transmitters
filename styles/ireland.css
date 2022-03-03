@@ -51,7 +51,8 @@ main {
 }
 
 .banner {
-    background-color: lavender;
+    background-image: url(/Images/irelandImages/ireland.jpg);
+    background-size: cover;
     height:250px;
     width:100%;
     margin-bottom: 1em;
