@@ -2,7 +2,7 @@ const cities = [
     {
         name: "Bangkok",
         population: "10.539 million",
-        funFact: "The King's Anthem is played before movies and cultural performances.",
+        funFact: "The King's Anthem is played before movies and cultural performances in Bangkok.",
         url: "https://en.wikipedia.org/wiki/Bangkok"
     },
     {
@@ -25,17 +25,20 @@ const landmarks = [
     {
         name: "Grand Palace",
         location: "Wat Phra Kaew",
-        url: "https://en.wikipedia.org/wiki/Grand_Palace"
+        url: "https://en.wikipedia.org/wiki/Grand_Palace",
+        inception: "1783"
     },
     {
         name: "Wat Rong Khun",
         location: "Mueang Chiang Rai district",
-        url: "https://en.wikipedia.org/wiki/Wat_Rong_Khun"
+        url: "https://en.wikipedia.org/wiki/Wat_Rong_Khun",
+        inception: "1997"
     },
     {
         name: "Haew Suwat Waterfall",
         location: "Khao Yai National Park",
-        url: "https://www.takemetour.com/landmark/haew-suwat-waterfall"
+        url: "https://www.takemetour.com/landmark/haew-suwat-waterfall",
+        inception: "1962"
     }
     
 
