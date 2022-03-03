@@ -57,9 +57,12 @@ main {
     margin-bottom: 1em;
 }
 
+
+
 .boxes {
     display: flex;
     justify-content: space-between;
+    margin: 50px;
 }
 
 .cityBox {
