@@ -51,10 +51,12 @@ main {
 
 .banner {
     background-image: url(/Images/turkmenImages/head.jpg);
+    background-size:contain;
     background-color: lavender;
     height:250px;
     width:100%;
     margin-bottom: 1em;
+    
 }
 
 .boxes {
