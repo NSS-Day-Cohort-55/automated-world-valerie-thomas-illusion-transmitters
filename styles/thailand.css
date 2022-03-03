@@ -1,4 +1,3 @@
-
 .logo {
     background-color: aqua;
 }
@@ -6,6 +5,7 @@
 .title {
     background-color: antiquewhite;
 }
+
 nav {
     background-color: aquamarine;
 }
@@ -16,7 +16,7 @@ nav {
 
 .boxes {
     display: flex;
-    border:solid 3px tan;
+    border: solid 3px tan;
     justify-content: space-around;
     padding: 2em 2em;
 }
@@ -26,15 +26,32 @@ nav {
     padding: 2em;
 
 }
+
 .landmarkBox {
     border: solid 2px greenyellow;
     padding: 2em;
 
 }
+
 .celebrityBox {
-    display:flex;
+    display: flex;
     border: solid 2px greenyellow;
     padding: 2em;
     max-width: 27vw;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
