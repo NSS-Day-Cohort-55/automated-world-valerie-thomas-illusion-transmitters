@@ -21,8 +21,19 @@ nav {
     padding: 2em 2em;
 }
 
+.cityBox {
+    border: solid 2px greenyellow;
+    padding: 2em;
+
+}
 .landmarkBox {
     border: solid 2px greenyellow;
     padding: 2em;
 
+}
+.celebrityBox {
+    display:flex;
+    border: solid 2px greenyellow;
+    padding: 2em;
+    max-width: 27vw;
 }

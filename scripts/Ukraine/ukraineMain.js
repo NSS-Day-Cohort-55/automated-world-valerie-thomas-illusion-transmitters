@@ -1,5 +1,8 @@
 //import
 
-import { ukraineCelebLister } from "./ukraineList.js";
+import { ukraineCelebLister, ukraineCityLister, ukraineLandmarkLister } from "./ukraineList.js";
 
+
+ukraineCityLister();
+ukraineLandmarkLister();
 ukraineCelebLister();

@@ -4,37 +4,37 @@ import { getCelebs, getLandmarks, getCities } from "./ukraineData.js";
 import { htmlCelebWriter, htmlLandmarkWriter, htmlCityWriter } from "./ukraineHTML.js";
 
 export const ukraineCityLister = () => {
-    const celebList = getCelebs();
-    const contentElement = document.querySelector(".celebrityBox")
-    let celebHTMLrep= "";
-    for(const celeb of celebList){
-        celebHTMLrep += htmlCelebWriter(celeb);
-    }
+    const cityList = getCities();
+    const contentElement = document.querySelector(".cityBox")
+    let cityHTMLrep= "";
+    cityList.map(cities=>{
+        cityHTMLrep+=htmlCityWriter(cities)
+    })
 
-    contentElement.innerHTML =`${celebHTMLrep}`;
+    contentElement.innerHTML =`${cityHTMLrep}`;
     
 }
 
-// Start working on this tommorow
 export const ukraineLandmarkLister = () => {
-    const celebList = getCelebs();
-    const contentElement = document.querySelector(".celebrityBox")
-    let celebHTMLrep= "";
-    for(const celeb of celebList){
-        celebHTMLrep += htmlCelebWriter(celeb);
-    }
+    const landmarkList = getLandmarks();
+    const contentElement = document.querySelector(".landmarkBox")
+    let landmarkHTMLrep= "";
+    landmarkList.map(landmarks=>{
+        landmarkHTMLrep+=htmlLandmarkWriter(landmarks)
+    })
 
-    contentElement.innerHTML =`${celebHTMLrep}`;
+    contentElement.innerHTML =`${landmarkHTMLrep}`;
     
 }
+
 export const ukraineCelebLister = () => {
     const celebList = getCelebs();
     const contentElement = document.querySelector(".celebrityBox")
-    let celebHTMLrep= "";
-    for(const celeb of celebList){
-        celebHTMLrep += htmlCelebWriter(celeb);
-    }
-
+    let celebHTMLrep="" 
+    celebList.map(celebs=>{
+        celebHTMLrep+=htmlCelebWriter(celebs)
+    })
+   
     contentElement.innerHTML =`${celebHTMLrep}`;
     
 }
