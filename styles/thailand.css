@@ -19,7 +19,7 @@ header {
     display: flex;
 }
 
-img{
+header img{
     display: flex;
     max-width: 20%;
     max-height: 20%;
@@ -28,11 +28,7 @@ img{
     /* border:solid black 5px; */
     /* margin-left:5%; */
 }
-header {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-}
+
 
 
 nav {
