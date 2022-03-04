@@ -3,9 +3,9 @@ const navContainer = document.querySelector('.navigationHeader')
     navContainer.innerHTML = (
 
        ` <nav>
-         <div class="logo"><p>Logo</p></div>
+         <div class="logo"><img src="/Images/Valerie_Thomas_Illusion_Transmitters_logos_white.png" alt="logo"></div>
          <div class='linkContainer'>
-            <div class="navButton"><a href="/index.html">home</a></div>
+            <div class="navButton"><a href="/index.html">Home</a></div>
             <div class="navButton"><a href="/countryHTMLs/ukraine.html">Ukraine</a></div>
             <div class="navButton"><a href="/countryHTMLs/ireland.html">Ireland</a></div>
             <div class="navButton"><a href="/countryHTMLs/turkmen.html">Turkmenistan</a></div>
