@@ -38,7 +38,8 @@ nav {
     border: solid #C9D6DF 2px;
     border-radius:20px;
     max-width: 3em; 
-    padding-left: 1em;  
+    display:flex;
+    justify-content: center;  
 }
 
 .navButton:hover {
@@ -63,15 +64,17 @@ main {
 }
 
 .banner {
-    background-color: lavender;
+    background-image: url("/Images/ukraineImages/kiev-banner.jpg");
+    background-position: left bottom;
     height:150px;
     width:100%;
     margin-bottom: 3em;
     display:flex;
-    /* justify-content: center; */
     align-items: center;
     border-radius: 8px;
+    color: white;
 }
+
 
 h1 {
     padding:1em;
@@ -91,39 +94,41 @@ a{
 }
 
 .cityBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 1px #888888;
     padding: 2em;
     margin:0 1em 0 0em;
     flex:1;
     border-radius: 8px;
-    background-image: url("/Images/independence-square-kiev-ukraine_4x3.webp");
+    box-shadow: 5px 10px #888888;
+    /* background-image: url("/Images/ukraineImages/independence-square-kiev-ukraine_4x3.webp");
     background-size: cover;
+    opacity:.8; */
 
 }
+
 .landmarkBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 1px #888888;
     padding: 2em;
     margin:0;
     flex:1;
     border-radius: 8px;
+    box-shadow: 5px 10px #888888;
+    /* background-image: url("/Images/ukraineImages/ukraineLand.jpg");
+    background-size: cover;
+    opacity:.8; */
 
 }
 .celebrityBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 1px #888888;
     padding: 2em;
     max-width: 27vw;
     margin:0 0 0 1em;
     flex:1;
     border-radius: 8px;
+    box-shadow: 5px 10px #888888;
+    /* background-image: url("/Images/ukraineImages/ukraineCelebrity.jpg.crdownload");
+    background-size: cover;
+    opacity:.8; */
 }
 
 
-/* .boxWithTitle {
-    border: solid 2px greenyellow;
-    padding: 2em;
-    max-width: 27vw;
-    margin:0 0 0 1em;
-    flex:1;
-    border-radius: 8px;
-
-} */
