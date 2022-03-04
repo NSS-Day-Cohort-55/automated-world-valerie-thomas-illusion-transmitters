@@ -6,7 +6,47 @@ body {
     background-color:rgb(241, 238, 238);
 }
 
+.navigationHeader>nav {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    width:100%;
+       
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    width:100%;
+    
+}
+
+/* .navButton {
+    flex:1;
+    min-width: 6em;
+    border: solid black 2px;
+    border-radius:20px;
+    max-width: 3em; 
+    display: flex;
+    justify-content: center;
+}
+
 .navButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.active{
+    background-color: black;
+    color: white;
+} */
+
+
+
+
+
+/* .navButton:hover {
     background-color: white;
     color:black;
 }
@@ -14,7 +54,7 @@ body {
 .active{
     background-color: white;
     color: black;
-}
+} */
 
 
 main {
@@ -43,6 +83,13 @@ main {
     border-radius: 8px;
   
 }
+.banner2{
+    display:flex;
+    justify-self: center;
+    align-items:center;
+    justify-content:center;
+    color:#f2f4ff;
+}
 
 h1 {
     padding:1em;
@@ -57,6 +104,7 @@ h1 {
     flex-wrap: wrap;
     width:100%;
     gap: 10px;
+    
 }
 
 /* .cityBoxWithTitle {
@@ -87,13 +135,13 @@ h1 {
 .cityBoxWithTitle,
 .landmarkBoxWithTitle,
 .celebrityBoxWithTitle {
-    border: solid 2px lightgray;
+    border: solid 2px #f2f4ff;
     padding: 20px;
    /*  margin:0 0 0 1em; */
     flex: 1;
    border-radius: 8px;
     /* background-image: url("/Images/turkmenImages/Kurban_Berdyev.jpg"); */
-    background-color:rgba(255, 255, 255,.6);
+    background-color:#f2f4ff;
     font-size: larger;
  
 }
@@ -102,14 +150,22 @@ h2{
     padding-bottom: 10px;
     font-family:sans-serif;
     border-bottom: 3px solid lightgray;
+    color:#6c756b;
 }
 .info-card{
     border-bottom: 1px solid lightgray;
+    /* box-shadow: 10px 5px 20px black;
+    border: solid 2px #000000;
+    border-radius: 8px; */
 
 }
 .info-card >a {
     text-decoration: none;
-    color: #24aa65;
+    color: #93acb5;
+    
+    
+    /* text-shadow: 0 0 5px #030303, 0 0 3px #93acb5; */
+    
     
 }
 .info-card >a :hover{
