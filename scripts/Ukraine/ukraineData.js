@@ -14,6 +14,17 @@ const cities = [
         pop:"1,029,049",
         url:"https://en.wikipedia.org/wiki/Kharkiv"
     },
+
+    {
+        name:"Odesa",
+        pop: '1,000,000',
+        url: "https://en.wikipedia.org/wiki/Odessa"
+    },
+    {
+        name:"Dnipro",
+        pop: "980,000",
+        url: "https://en.wikipedia.org/wiki/Dnipro"
+    }
     
 ]
 
@@ -27,6 +38,11 @@ const landmarks = [
         name: "Old Town",
         location:  "Lviv",
         url: "https://en.wikipedia.org/wiki/Old_Town_(Lviv)"
+    },
+    {
+        name:"Sofiyisky Park",
+        location:"Uman, Cherkasy Oblast",
+        url:"https://en.wikipedia.org/wiki/Sofiyivka_Park"
     }
 ]
 
