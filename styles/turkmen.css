@@ -2,86 +2,65 @@
 body {
     display:flex;
     flex-direction: column;
-    width:70%;
     align-items: center;
-    /* border:solid black 5px; */
-    margin-left:15%;
-}
-header {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-}
-.logo {
-    border: solid #C9D6DF 2px;
-    border-radius:20px;
-    max-width: 3em;
-    margin-bottom:2em;
-}
-.logo p {
-    padding-left: .25em;
-}
-
-nav {
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 3em;
-    width:100%;
-    
-
-}
-
-.navButton {
-    flex:1;
-    min-width: 6em;
-    border: solid #C9D6DF 2px;
-    border-radius:20px;
-    max-width: 3em; 
-    padding-left: 1em;  
+    background-color:rgb(241, 238, 238);
 }
 
 
 
 main {
     display:flex;
+    border-radius: 15px;
     flex-direction: column;
-    width:100%;
+    width:70vw;
     align-items: flex-start;
     padding:0;
-    margin:0;
+    
+    flex:center;
 }
 
 .banner {
-    background-image: url(/Images/turkmenImages/head.jpg);
-    background-size:contain;
+    justify-self: center;
+    display:flex;
+    background-image: url(/Images/turkmenImages/turk-banner.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     background-color: lavender;
-    height:150px;
+    height:200px;
     width:100%;
     margin-bottom: 3em;
-    display:flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     border-radius: 8px;
+  
 }
 
 h1 {
     padding:1em;
+    color:white;
+    font-size: 40px;
+    
 }
 
 .boxes {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width:100%;
+    gap: 10px;
 }
 
-.cityBoxWithTitle {
+/* .cityBoxWithTitle {
     border: solid 2px greenyellow;
     padding: 2em;
     margin:0 1em 0 0em;
     flex:1;
     border-radius: 8px;
-    background-image: url("/Images/independence-square-kiev-ukraine_4x3.webp");
+    background-color:rgba(255, 255, 255,.6);
     background-size: cover;
+    color:black;
+    font:bolder;
+    font-size: larger;
 
 }
 .landmarkBoxWithTitle {
@@ -90,13 +69,60 @@ h1 {
     margin:0;
     flex:1;
     border-radius: 8px;
+     background-image: url("/Images/turkmenImages/Neutrality.jpg"); 
+    background-color:rgba(255, 255, 255,.6);
+    background-size: cover;
+    font-size: larger;
+
+} */
+.cityBoxWithTitle,
+.landmarkBoxWithTitle,
+.celebrityBoxWithTitle {
+    border: solid 2px lightgray;
+    padding: 20px;
+   /*  margin:0 0 0 1em; */
+    flex: 1;
+   border-radius: 8px;
+    /* background-image: url("/Images/turkmenImages/Kurban_Berdyev.jpg"); */
+    background-color:rgba(255, 255, 255,.6);
+    font-size: larger;
+ 
+}
+h2{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    font-family:sans-serif;
+    border-bottom: 3px solid lightgray;
+}
+.info-card{
+    border-bottom: 1px solid lightgray;
 
 }
-.celebrityBoxWithTitle {
-    border: solid 2px greenyellow;
-    padding: 2em;
-    max-width: 27vw;
-    margin:0 0 0 1em;
-    flex:1;
-    border-radius: 8px;
+.info-card >a {
+    text-decoration: none;
+    color: #24aa65;
+    
+}
+.info-card >a :hover{
+    color:black;
+}
+/*Image Carousel Css*/
+.photoGallery{
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 100%;
+}
+.imageContainer{
+    display: flex;
+    max-width: 100%;
+    overflow: scroll;
+    background-color: transparent;
+    gap: 20px;
+}
+
+.turkImage{
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 10px;
 }
