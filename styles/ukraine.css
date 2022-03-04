@@ -42,6 +42,16 @@ nav {
     justify-content: center;  
 }
 
+.navButton:hover {
+    background-color: white;
+    color:black;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
 
 
 main {
