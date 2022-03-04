@@ -5,7 +5,8 @@ export const htmlLandmarkWriter = (uObj) => {
             <a href="${uObj.url}">
                 <h3>${uObj.name}</h3>
             </a>
-            <p>See it at ${uObj.location}</p>
+            <p>See it in ${uObj.location}</p>
+            <p>Created: ${uObj.created}</p>
             
         </div>`
 }
@@ -16,6 +17,7 @@ export const htmlCityWriter = (uObj) => {
                 <h3>${uObj.name}</h3>
             </a>
             <p>Population ${uObj.pop}</p>
+            <p>Known for: ${uObj.knownFor}</p>
             
         </div>`
 }
