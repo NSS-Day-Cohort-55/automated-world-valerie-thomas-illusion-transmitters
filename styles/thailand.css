@@ -5,6 +5,7 @@ body {
     align-items: flex-start;
     /* border:solid black 5px; */
     margin-left:15%;
+    background-color: #93ACB5;
 }
 header {
     display: flex;
@@ -19,7 +20,15 @@ header {
     display: flex;
 }
 
-img{
+h3 {
+ color: #6c756b;
+}
+
+h2 {
+    color: #6c756b;
+   }
+
+header img{
     display: flex;
     max-width: 20%;
     max-height: 20%;
@@ -28,11 +37,7 @@ img{
     /* border:solid black 5px; */
     /* margin-left:5%; */
 }
-header {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-}
+
 
 
 nav {
@@ -56,15 +61,25 @@ nav {
     
     
 }
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    /* text-decoration: none; */
+    color: currentColor;
+    /* color: #6c756b */
+}
 
 .navButton:hover {
-    background-color: white;
-    color:black;
+    background-color: #a9d3ff;
+    color: #F2F4FF;
 }
 
 .active{
-    background-color: white;
-    color: black;
+    background-color: #6c756b;
+    color: #F2F4FF;
+    border-color: #F2F4FF;
 }
 
 
@@ -76,6 +91,7 @@ main {
     align-items: flex-start;
     padding:0;
     margin:0;
+    /* color: #6c756b; */
 }
 
 .banner {
@@ -87,6 +103,8 @@ main {
     width: 100%;
     margin-bottom: 3em;
     color: white;
+    /* font-size:xx-large; */
+    text-shadow: 2px 2px  black, 2px 2px 0 black, 2px 2px 0 black, 2px 2px 0 black;
 }
 
 h1 {
@@ -99,12 +117,15 @@ h1 {
     width:100%;
 }
 
+
 .cityBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 2px #6c756b;
     padding: 2em;
     margin:0 1em 0 0em;
     flex:1;
     border-radius: 8px;
+    background-color: #F2F4FF;
+    box-shadow: 5px 10px #888888;
 
 }
 /* .landmarkBox {
@@ -112,36 +133,61 @@ display: flex;
 
 } */
 .landmarkBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 2px #6c756b;
     padding: 2em;
     margin:0;
     flex:1;
     border-radius: 8px;
+    background-color: #F2F4FF;
+    box-shadow: 5px 10px #888888;
 
 }
 
 .celebrityBoxWithTitle {
-    border: solid 2px greenyellow;
+    border: solid 2px #6c756b;
     padding: 2em;
     max-width: 27vw;
     margin:0 0 0 1em;
     flex:1;
     border-radius: 8px;
+    background-color: #F2F4FF;
+    box-shadow: 5px 10px #888888;
+    
 }
 
+/* a:link {
+    /* text-decoration: none; */
+    /* color: #6c756b; */
+/* } */ */
 
-a:link {
+
+/* a:hover {
     text-decoration: none;
+    /* color: #6c756b */
+} */
+
+/* a:active {
+    text-decoration: none; */
+    /* color: #6c756b
+} */
+
+.photoGallery{
+    margin-top: 30px;
+    padding: 10px;
+    max-width: 100%;
+}
+.imageContainer{
+    display: flex;
+    max-width: 100%;
+    overflow: scroll;
+    background-color: transparent;
+    gap: 20px;
+    overflow-y: auto;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
+.turkImage{
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 10px;
 }

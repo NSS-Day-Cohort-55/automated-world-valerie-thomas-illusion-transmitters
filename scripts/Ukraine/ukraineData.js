@@ -6,24 +6,28 @@ const cities = [
     {
         name:"Kyiv",
         pop:"2,611,327",
-        url:"https://en.wikipedia.org/wiki/Kyiv"
+        url:"https://en.wikipedia.org/wiki/Kyiv",
+        blurb:"Ukraine's capital and home to many hi-tech industries"
     },
     
     {
         name:"Kharkiv",
         pop:"1,029,049",
-        url:"https://en.wikipedia.org/wiki/Kharkiv"
+        url:"https://en.wikipedia.org/wiki/Kharkiv",
+        blurb: "Known for it's numerous museums, theatres and libraries"
     },
 
     {
         name:"Odesa",
         pop: '1,000,000',
-        url: "https://en.wikipedia.org/wiki/Odessa"
+        url: "https://en.wikipedia.org/wiki/Odessa",
+        blurb:"Known as the 'Pearl of the Black Sea'"
     },
     {
         name:"Dnipro",
         pop: "980,000",
-        url: "https://en.wikipedia.org/wiki/Dnipro"
+        url: "https://en.wikipedia.org/wiki/Dnipro",
+        blurb: "Known for originally being a fortress"
     }
     
 ]
@@ -32,17 +36,20 @@ const landmarks = [
     {
         name: "The Holy Dormition Kyiv Caves Lavra",
         location: "Kyiv",
-        url: "https://en.wikipedia.org/wiki/Kyiv_Pechersk_Lavra"
+        url: "https://en.wikipedia.org/wiki/Kyiv_Pechersk_Lavra",
+        est:"in 1051 by monk St. Anthony Pechersky"
     },
     {
         name: "Old Town",
         location:  "Lviv",
-        url: "https://en.wikipedia.org/wiki/Old_Town_(Lviv)"
+        url: "https://en.wikipedia.org/wiki/Old_Town_(Lviv)",
+        est:"1988"
     },
     {
         name:"Sofiyisky Park",
         location:"Uman, Cherkasy Oblast",
-        url:"https://en.wikipedia.org/wiki/Sofiyivka_Park"
+        url:"https://en.wikipedia.org/wiki/Sofiyivka_Park",
+        est:"in 1796 by Count Stanislaw Szczesny Potocki"
     }
 ]
 
