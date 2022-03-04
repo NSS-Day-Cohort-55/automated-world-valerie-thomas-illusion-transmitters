@@ -51,26 +51,25 @@ nav {
     max-width: 3em; 
     display:flex;
     justify-content: center;
-    background-color: #F2F4FF;  
+    background-color: #F2F4FF; 
 }
 
 /* This allows all the links to stay a specific color */
 a:visited {
-    color:#93ACB5;
+    color:currentColor;
 }
 
 .navButton:hover {
     background-color: #A9D3FF;
-    color:#93ACB5;
+    color:#F2F4FF;
 }
 
 .active{
     background-color: #6C756B;
+    color:#F2F4FF;
+    border-color: #F2F4FF
 }
 
-.activeAnchorText {
-    color:#F2F4FF;
-}
 
 
 
@@ -169,6 +168,7 @@ h3 {
     overflow: scroll;
     background-color: transparent;
     gap: 20px;
+    overflow-y: auto;
 }
 
 .turkImage{
